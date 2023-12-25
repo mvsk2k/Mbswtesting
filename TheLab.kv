@@ -1,4 +1,14 @@
-BoxLayoutExample:
+AnchorLayoutExample:
+
+<AnchorLayoutExample>:
+    # right, left, center
+    anchor_x: 'left'
+    # bottom, top, center
+    anchor_y: 'top'
+    Button:
+        text: 'SIVA1'
+        size_hint: 0.1, 0.1
+
 
 <BoxLayoutExample>:
     orientation: 'horizontal'
@@ -13,7 +23,8 @@ BoxLayoutExample:
 
     BoxLayout:
         orientation: 'vertical'
-        spacing: '10dp'
+        padding: '10dp'
+        spacing: '20dp'
         Button:
             text: 'B1'
         Button:
