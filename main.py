@@ -5,7 +5,6 @@ from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.widget import Widget
 
-
 class GridLayoutExample(GridLayout):
     pass
 class AnchorLayoutExample(AnchorLayout):
