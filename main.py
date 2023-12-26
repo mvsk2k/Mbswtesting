@@ -6,7 +6,12 @@ from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.stacklayout import StackLayout
 from kivy.uix.scrollview import ScrollView
+from kivy.uix.pagelayout import PageLayout
 from kivy.uix.widget import Widget
+
+
+class PageLayoutExample(PageLayout):
+    pass
 
 class ScrollViewExample(ScrollView):
     pass
