@@ -1,8 +1,14 @@
-StackLayoutExample:
+ScrollViewExample:
+
+<ScrollViewExample>:
+    StackLayoutExample:
+        size_hint: 1, None
+        #height: 2000
+        height: self.minimum_height
 
 <StackLayoutExample>:
     # right to left  , top to bottom
-    orientation: "rl-bt"
+    orientation: "lr-tb"
     padding: ("20dp","20dp","20dp","20dp")
     spacing: '20dp', '20dp'
     Button:
@@ -27,6 +33,22 @@ StackLayoutExample:
         size: '100dp', '100dp'
     Button:
         text: 'F'
+        size_hint: None, None
+        size: '100dp', '100dp'
+    Button:
+        text: 'G'
+        size_hint: None, None
+        size: '100dp', '100dp'
+    Button:
+        text: 'H'
+        size_hint: None, None
+        size: '100dp', '100dp'
+    Button:
+        text: 'I'
+        size_hint: None, None
+        size: '100dp', '100dp'
+    Button:
+        text: 'J'
         size_hint: None, None
         size: '100dp', '100dp'
 
