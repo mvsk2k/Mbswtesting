@@ -25,6 +25,7 @@ WidgetsExample:
         width: '100dp'
 
     Slider:
+        id: my_slider
         min: 0
         max: 100
         value: 50
@@ -32,7 +33,10 @@ WidgetsExample:
         orientation: "vertical"
 
     Label:
-        text: root.slider_value_text
+        #text: root.slider_value_text
+        text: str(int(my_slider.value))
+
+
 
 
 
