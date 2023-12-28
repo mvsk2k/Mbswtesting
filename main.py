@@ -18,6 +18,16 @@ class WidgetsExample(GridLayout):
         self.count += 1
         self.my_text = str(self.count)
 
+    def on_toggle_button_state(self, widget):
+        if widget.state == "normal":
+            # OFF
+            widget.text = "OFF"
+        else:
+            # ON
+            widget.text = "ON"
+
+
+
 
 
 class PageLayoutExample(PageLayout):
