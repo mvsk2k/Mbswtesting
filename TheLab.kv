@@ -35,12 +35,21 @@ WidgetsExample:
         orientation: "vertical"
         disabled: not my_switch.active
 
-    Label:
-        #text: root.slider_value_text
-        text: str(int(my_slider.value))
-        font_name: "fonts/Lcd.ttf"
-        font_size: '80dp'
-        color: 1, 0.5, 1, 1
+    BoxLayout:
+        orientation: "vertical"
+
+        Label:
+            #text: root.slider_value_text
+            text: str(int(my_slider.value))
+            font_name: "fonts/Lcd.ttf"
+            font_size: '80dp'
+            color: 1, 0.5, 1, 1
+
+        ProgressBar:
+            max: 100
+            #value: 25
+            value: my_slider.value
+
 
 
 
