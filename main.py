@@ -13,18 +13,22 @@ from kivy.uix.widget import Widget
 
 class WidgetsExample(GridLayout):
     count = 1
+    count_enabled = False
     my_text = StringProperty('1')
     def on_button_click(self):
-        self.count += 1
+        if self.count_enabled == True:
+            self.count += 1
         self.my_text = str(self.count)
 
     def on_toggle_button_state(self, widget):
         if widget.state == "normal":
             # OFF
             widget.text = "OFF"
+            self.count_enabled = False
         else:
             # ON
             widget.text = "ON"
+            self.count_enabled = True
 
 
 
