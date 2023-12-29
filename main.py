@@ -69,6 +69,9 @@ class CanvasExample1(Widget):
 class CanvasExample2(Widget):
     pass
 
+class CanvasExample3(Widget):
+    pass
+
 
 class MainWidget(Widget):
     pass
