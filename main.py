@@ -63,6 +63,9 @@ class AnchorLayoutExample(AnchorLayout):
 class BoxLayoutExample(BoxLayout):
     pass
 
+class CanvasExample1(Widget):
+    pass
+
 
 class MainWidget(Widget):
     pass
