@@ -66,6 +66,9 @@ class BoxLayoutExample(BoxLayout):
 class CanvasExample1(Widget):
     pass
 
+class CanvasExample2(Widget):
+    pass
+
 
 class MainWidget(Widget):
     pass
