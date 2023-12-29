@@ -15,6 +15,7 @@ class WidgetsExample(GridLayout):
     count = 1
     count_enabled = BooleanProperty(False)
     my_text = StringProperty('1')
+    text_input_str = StringProperty('SIVA')
     #slider_value_text = StringProperty('Value')
     def on_button_click(self):
         if self.count_enabled == True:
@@ -38,7 +39,8 @@ class WidgetsExample(GridLayout):
         print("Slider Value " + str(int(widget.value)))
         # self.slider_value_text = str(int(widget.value))
 
-
+    def on_text_validate(self, widget):
+        self.text_input_str = widget.text
 
 
 

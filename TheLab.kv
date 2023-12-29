@@ -50,6 +50,21 @@ WidgetsExample:
             #value: 25
             value: my_slider.value
 
+    TextInput:
+        id: my_text_input
+        size_hint: None, 1
+        width: '100dp'
+        text: 'SIVA'
+        multiline: False
+        on_text_validate: root.on_text_validate(self)
+
+    Label:
+        #text: my_text_input.text
+        text: root.text_input_str
+
+
+
+
 
 
 
