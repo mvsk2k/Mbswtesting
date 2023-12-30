@@ -142,6 +142,11 @@ class CanvasExample5(Widget):
         self.ball.pos = (x, y)
 
 
+class CanvasExample6(Widget):   # Relative Layout
+    pass
+
+
+
 
 
 class MainWidget(Widget):
