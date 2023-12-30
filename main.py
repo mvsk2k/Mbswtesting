@@ -145,6 +145,9 @@ class CanvasExample5(Widget):
 class CanvasExample6(Widget):   # Relative Layout
     pass
 
+class CanvasExample7(BoxLayout):   # Relative Layout
+   pass
+
 
 
 
